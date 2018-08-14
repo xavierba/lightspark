@@ -21,6 +21,7 @@
 #define PLATFORMS_ENGINEUTILS_H 1
 
 #include <SDL2/SDL.h>
+#undef vector
 #include "compat.h"
 #include "threading.h"
 #include "tiny_string.h"
