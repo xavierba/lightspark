@@ -76,7 +76,7 @@
 #else
 //The interpretation of texture data change with the endianness
 #if __BYTE_ORDER == __BIG_ENDIAN
-#define GL_UNSIGNED_INT_8_8_8_8_HOST GL_UNSIGNED_INT_8_8_8_8_REV
+#define GL_UNSIGNED_INT_8_8_8_8_HOST GL_UNSIGNED_BYTE
 #else
 #define GL_UNSIGNED_INT_8_8_8_8_HOST GL_UNSIGNED_BYTE
 #endif
